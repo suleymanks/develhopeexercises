@@ -1,0 +1,37 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navigation Bar</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <nav class="navbar">
+      <a class="navbar-homepage" href="#">Navbar</a>
+      <ul class="u-list">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Link</a></li>
+        <li>
+          <select name="dropdown" id="dropdown">
+            <option>Dropdown</option>
+            <option value="opt2">Selection2</option>
+            <option value="opt3">Selection3</option>
+            <option value="opt4">Selection4</option>
+          </select>
+        </li>
+        <li><button class="Disabled" disabled>Disabled</button></li>
+        <li>
+          <label for="search">
+            <input type="text" id="search" placeholder="Search" />
+          </label>
+          <label for="searchbutton">
+            <button id="search" class="searchbutton">Search</button>
+          </label>
+        </li>
+      </ul>
+      <label class="hamburger-menu">
+        <input type="checkbox">
+      </label>
+    </nav>
+  </body>
+</html>

@@ -1,0 +1,68 @@
+body {
+  width: 60em;
+  margin: 0 auto;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 0.5fr 1fr 1fr 1fr;
+  gap: 0.5em;
+  grid-template-areas: 
+  "g g g g g g"
+  "y y r r b b"
+  ". . r r b b"
+  "o o o o b b";
+}
+
+section {
+  padding: 2em;
+  margin: 1em;
+
+}
+
+#green {
+  background-color: #8ffda7;
+  grid-area: g;
+}
+
+#orange {
+  background-color: #ffc788;
+  grid-area: o;
+
+}
+
+#yellow {
+  background-color: #ffff92;
+  grid-area: y;
+
+}
+
+#red {
+  background-color: #ff919c;
+  grid-area: r;
+
+}
+
+#blue {
+  background-color: #98d2ff;
+  grid-area: b;
+
+}
+
+ul {
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+
+li {
+  background-color: white;
+  padding: 1em;
+  list-style: none;
+  margin: 1em;
+}
+ul .red {
+  display: grid;
+  align-items: center;
+}

@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+}
+.cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cards {
+    display: flex;
+    list-style: none;
+
+}
+.card1 {
+    width: 100%;
+    max-width: 300px;
+    padding: 16px;
+    border-radius: 8%;
+    border: 1px solid;
+
+}
+
+.top {
+    display: flex;
+    gap: 5px;
+    j
+}   
+.avatar {
+    height: 36px;
+    width: 36px;
+    border: 1px solid;
+    border-radius: 50%;
+}
+.username {
+    display: flex;
+    flex-direction: column;
+    font-size: 17px;
+}
+.date {
+    font-size: 12px;
+}
+.dotbutton {
+    background: none;
+    border: none;
+    font-size: 32px;
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+}

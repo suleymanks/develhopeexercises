@@ -1,0 +1,15 @@
+:root {
+    --kindblue: #5ba3eb;
+    --peanutgreen: #6fb734;
+}
+
+body {
+    background-color: var(--kindblue);
+}
+
+.ball {
+    width: 100px;
+    height: 100px;
+    background-color: var(--peanutgreen);
+    border-radius: 50px;
+}
