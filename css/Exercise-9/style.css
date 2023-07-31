@@ -19,9 +19,10 @@ body {
 .cards {
     display: flex;
     list-style: none;
+    gap: 25px;
 
 }
-.card1 {
+.card {
     width: 100%;
     max-width: 300px;
     padding: 16px;
@@ -32,8 +33,10 @@ body {
 
 .top {
     display: flex;
-    gap: 5px;
-    j
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    justify-content: space-between;
 }   
 .avatar {
     height: 36px;
@@ -45,6 +48,7 @@ body {
     display: flex;
     flex-direction: column;
     font-size: 17px;
+    flex:1;
 }
 .date {
     font-size: 12px;
@@ -54,6 +58,18 @@ body {
     border: none;
     font-size: 32px;
     display: flex;
-    justify-content: flex-end;
-    cursor: pointer;
+    align-items: flex-start;
+}
+.photo-part {
+    background-color: aquamarine;
+    width: 100%;
+    aspect-ratio: 1;
+}
+.buttons {
+    padding: 10px;
+    display: flex;
+}
+button {
+    background:none;
+    border: none;
 }
