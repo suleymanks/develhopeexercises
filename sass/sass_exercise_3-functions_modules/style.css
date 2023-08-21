@@ -1,0 +1,33 @@
+div {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+div h1 {
+  color: green;
+  border-bottom: 1px solid blue;
+  display: inline-block;
+}
+div section {
+  display: flex;
+  padding: 0.625rem;
+}
+div section article {
+  padding: 0.625rem;
+  border: 1px solid green;
+  font-size: 1rem;
+  border-color: green;
+  color: blue;
+  text-align: center;
+}
+div section article:nth-child(even) {
+  color: red;
+}
+div .section1 article {
+  font-size: 1.5rem;
+  border-color: blue;
+  color: green;
+}
+
+/*# sourceMappingURL=style.css.map */

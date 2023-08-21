@@ -1,0 +1,44 @@
+$color-primary: red;
+$color-secondary: blue;
+$color-tetriary: green;
+
+@mixin article-card($color, $color2, $font){
+    font-size: $font;
+    border-color: $color;
+    color: $color2
+};
+
+div {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1 {
+        color: green;
+        border-bottom: 1px solid blue;
+        display: inline-block;
+    }
+    section {
+        display: flex;
+        padding: 10px;
+
+        article {
+            padding: 10px;
+            border: 1px solid green;
+            @include article-card($color-tetriary,$color-secondary,1rem);
+            text-align: center;
+            &:nth-child(even){
+                color: red;
+            }
+        }
+    }
+    .section1 {
+
+        article {
+            @include article-card(blue,green ,1.5rem);
+        }
+    }
+
+    
+}

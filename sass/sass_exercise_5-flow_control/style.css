@@ -1,0 +1,124 @@
+div {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+div h1, div h2 {
+  color: green;
+  border-bottom: 1px solid blue;
+  display: inline-block;
+}
+div h2 {
+  border: 1px solid red;
+  padding: 1rem;
+}
+div section {
+  display: flex;
+  padding: 0.625rem;
+}
+div section article {
+  padding: 0.625rem;
+  border: 1px solid green;
+  font-size: 1rem;
+  border-color: green;
+  color: blue;
+  text-align: center;
+}
+div section article:nth-child(even) {
+  color: red;
+}
+div .section0 div {
+  width: 2.8125rem;
+  height: 2.8125rem;
+  border: 1px solid red;
+  display: flex;
+  margin: 0.5rem;
+}
+div .section0 div {
+  background-color: #f2f2f2;
+  color: #0d0d0d;
+}
+div .section0 div {
+  background-color: black;
+  color: white;
+}
+div .section0 div {
+  background-color: #d9d9d9;
+  color: #262626;
+}
+div .section0 div {
+  background-color: black;
+  color: white;
+}
+div .section0 div {
+  background-color: #bfbfbf;
+  color: #404040;
+}
+div .section0 div {
+  background-color: black;
+  color: white;
+}
+div .section0 div {
+  background-color: #a6a6a6;
+  color: #595959;
+}
+div .section0 div {
+  background-color: black;
+  color: white;
+}
+div .section0 div {
+  background-color: #8c8c8c;
+  color: #737373;
+}
+div .section0 div {
+  background-color: black;
+  color: white;
+}
+div .section0 div {
+  background-color: #737373;
+  color: #8c8c8c;
+}
+div .section0 div {
+  background-color: black;
+  color: white;
+}
+div .section0 div {
+  background-color: #595959;
+  color: #a6a6a6;
+}
+div .section0 div {
+  background-color: black;
+  color: white;
+}
+div .section0 div {
+  background-color: #404040;
+  color: #bfbfbf;
+}
+div .section0 div {
+  background-color: black;
+  color: white;
+}
+div .section0 div {
+  background-color: #262626;
+  color: #d9d9d9;
+}
+div .section0 div {
+  background-color: black;
+  color: white;
+}
+div .section0 div {
+  background-color: #0d0d0d;
+  color: #f2f2f2;
+}
+div .section0 div {
+  background-color: black;
+  color: white;
+}
+div .section1 article {
+  font-size: 1.5rem;
+  border-color: blue;
+  color: green;
+}
+
+/*# sourceMappingURL=style.css.map */
