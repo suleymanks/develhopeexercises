@@ -1,0 +1,52 @@
+<html>
+  <body>
+    <div id="container">
+      <form>
+        <div>
+          <label>First Name:</label>
+          <input type="text" class="form-input" id="firstName" value="Mario"/>
+        </div>
+        <div>
+          <label>Last Name:</label>
+          <input type="text" class="form-input" id="lastName" value="Rossi"/>
+        </div>
+        <div>
+          <label>Age:</label>
+          <input type="number" class="form-input" id="age" value="25"/>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
+
+<script>
+
+  const inputs = document.querySelectorAll(".form-input");
+  const labels = document.querySelectorAll("label");
+
+  Array.from(inputs).forEach((input, index) => {
+    console.log(`${labels[index].textContent} ${input.value}`)
+  })
+
+  /*const inputValues = Array.from(inputs).map((input) => input.value);
+  const labelValues = Array.from(labels).map((label) => label.textContent);
+
+  function Func(arg1,arg2) {
+    console.log(arg2[0], arg1[0]);
+    console.log(arg2[1], arg1[1]);
+    console.log(arg2[2], arg1[2]);
+  }
+  Func(inputValues,labelValues);*/
+</script>
+
+# DOM
+
+Get the value of all `input` and `label` fields.
+
+The output in the console must be:
+
+```
+First Name: Mario
+Last Name: Rossi
+Age: 25
+```
