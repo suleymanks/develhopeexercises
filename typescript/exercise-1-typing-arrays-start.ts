@@ -31,9 +31,9 @@ const populations2:Array<number> = [5_135_300, 331_893_745, 1_412_600_000];
 // they are correct.
 
 interface Country {
-    name: never;
+    name: string;
     code: string;
-    population: never;
+    population: number;
 }
 
 // Add a type annotation for this array of objects.
