@@ -1,0 +1,1 @@
+Hello, this is exercise of node 07!
